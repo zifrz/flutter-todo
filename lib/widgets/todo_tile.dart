@@ -67,7 +67,7 @@ class TodoTile extends ConsumerWidget {
               onPressed: () => Navigator.pop(context),
               child: const Text("Cancel"),
             ),
-            ElevatedButton(
+            FilledButton(
               onPressed: () {
                 if (todoController.text.trim().isNotEmpty) {
                   ref
